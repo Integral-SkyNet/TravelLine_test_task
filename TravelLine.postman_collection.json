@@ -1,0 +1,1184 @@
+{
+	"info": {
+		"_postman_id": "456a773c-2108-443e-9e6c-8c11723cbc5e",
+		"name": "TravelLine",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Поиск средств размещений по окружности",
+			"item": [
+				{
+					"name": "Pairwise_1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=0&longitude=180&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "0"
+								},
+								{
+									"key": "longitude",
+									"value": "180"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pairwise_2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=0&longitude=90.01&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "0"
+								},
+								{
+									"key": "longitude",
+									"value": "90.01"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pairwise_3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=0&longitude=179.56789&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "0"
+								},
+								{
+									"key": "longitude",
+									"value": "179.56789"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pairwise_4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=90&longitude=-90&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "90"
+								},
+								{
+									"key": "longitude",
+									"value": "-90"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pairwise_5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=-90.537&longitude=90&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "-90.537"
+								},
+								{
+									"key": "longitude",
+									"value": "90"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pairwise_6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=90&longitude=179.56789&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "90"
+								},
+								{
+									"key": "longitude",
+									"value": "179.56789"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pairwise_7",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=89&longitude=-180&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "89"
+								},
+								{
+									"key": "longitude",
+									"value": "-180"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pairwise_8",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=90&longitude=180&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "90"
+								},
+								{
+									"key": "longitude",
+									"value": "180"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pairwise_9",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=91&longitude=179.56789&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "91"
+								},
+								{
+									"key": "longitude",
+									"value": "179.56789"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pairwise_10",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=-50.12345&longitude=-90&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "-50.12345"
+								},
+								{
+									"key": "longitude",
+									"value": "-90"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pairwise_11",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=50&longitude=-180.56789&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "50"
+								},
+								{
+									"key": "longitude",
+									"value": "-180.56789"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pairwise_12",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=90&longitude=181.56789&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "90"
+								},
+								{
+									"key": "longitude",
+									"value": "181.56789"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Невалидный latitude",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=latitude&longitude=151.56789&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "latitude"
+								},
+								{
+									"key": "longitude",
+									"value": "151.56789"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Невалидный longitude",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=90&longitude=longitude&radius=30000&count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "90"
+								},
+								{
+									"key": "longitude",
+									"value": "longitude"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HTTP",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://partner.qatl.ru/api/geo/v1/properties/circle-search?latitude=53.24332&longitude=34.363400&radius=30000&count=500",
+							"protocol": "http",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"properties",
+								"circle-search"
+							],
+							"query": [
+								{
+									"key": "latitude",
+									"value": "53.24332"
+								},
+								{
+									"key": "longitude",
+									"value": "34.363400"
+								},
+								{
+									"key": "radius",
+									"value": "30000"
+								},
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Поиск средств размещений по стране",
+			"item": [
+				{
+					"name": "Существующий countryCode",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/countries/RUS/properties?count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"countries",
+								"RUS",
+								"properties"
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Невалидный countryCode",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/countries/Неведомая_страна/properties?count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"countries",
+								"Неведомая_страна",
+								"properties"
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HTTP",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://partner.qatl.ru/api/geo/v1/countries/USA/properties?count=500",
+							"protocol": "http",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"countries",
+								"USA",
+								"properties"
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Поиск средств размещений по региону",
+			"item": [
+				{
+					"name": "Существующий regionId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/regions/44/properties?count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"regions",
+								"44",
+								"properties"
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Невалидный regionId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/regions/цифра/properties?count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"regions",
+								"цифра",
+								"properties"
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HTTP",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://partner.qatl.ru/api/geo/v1/regions/44/properties?count=500",
+							"protocol": "http",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"regions",
+								"44",
+								"properties"
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Поиск средств размещений по городу",
+			"item": [
+				{
+					"name": "Существующий cityId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/cities/1/properties?count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"cities",
+								"1",
+								"properties"
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Невалидный cityId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/cities/цифра/properties?count=500",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"cities",
+								"цифра",
+								"properties"
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HTTP",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://partner.qatl.ru/api/geo/v1/cities/1/properties?count=500",
+							"protocol": "http",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"cities",
+								"1",
+								"properties"
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "500"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Получить список всех стран",
+			"item": [
+				{
+					"name": "Список стран по HTTPS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/countries",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"countries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Список стран по HTTP",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://partner.qatl.ru/api/geo/v1/countries",
+							"protocol": "http",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"countries"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Получить список всех регионов страны",
+			"item": [
+				{
+					"name": "Существующий countryCode",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/countries/RUS/regions",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"countries",
+								"RUS",
+								"regions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Невалидный countryCode",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/countries/QWERTY/regions",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"countries",
+								"QWERTY",
+								"regions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HTTP",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://partner.qatl.ru/api/geo/v1/countries/USA/regions",
+							"protocol": "http",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"countries",
+								"USA",
+								"regions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Получить список всех городов страны",
+			"item": [
+				{
+					"name": "Существующий countryCode",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://partner.qatl.ru/api/geo/v1/countries/RUS/cities",
+							"protocol": "http",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"countries",
+								"RUS",
+								"cities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Невалидный countryCode",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/geo/v1/countries/America/cities",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"countries",
+								"America",
+								"cities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HTTP",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://partner.qatl.ru/api/geo/v1/countries/RUS/cities",
+							"protocol": "http",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"geo",
+								"v1",
+								"countries",
+								"RUS",
+								"cities"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{key_travelline}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "X-API-KEY",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
